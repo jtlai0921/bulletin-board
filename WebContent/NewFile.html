@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+</head>
+<body>
+<form style="width: 400px;">
+                    <label class="label">名稱：</label>
+                    <input type="text" id="user" name="user">
+                    <br><br>
+                    <div>
+                        <label class="label">留言：</label>
+                        <textarea id="msg" name="msg"></textarea>
+                    </div>
+                    <div class="button_row">
+                        <input class="button" id="submit_button" type="submit" value="留言" onclick="return checkEmpty()">
+                        <input class="button" id="cancel_button" type="button" value="取消" onclick="window.location.href='./index.jsp'">
+                    </div>
+
+                </form>
+
+</body>
+</html>

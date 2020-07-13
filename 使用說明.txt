@@ -1,0 +1,3 @@
+步驟一: 在 D:\test\ 建立一檔案 data.csv
+步驟二: 將專案bulletin-board佈署至Tomcat，並啟動
+步驟三: 用瀏覽器打開 http://localhost:8080/bulletin-board 即可測試
