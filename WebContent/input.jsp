@@ -26,6 +26,7 @@
 						<textarea name="content" id="content" cols="30" rows="10"></textarea>
 					</div>
 					<div class="btn-group">
+					<input type="submit" value="查詢" onclick=""></input>
 						<input type="submit" value="留言" onclick="return checkEmpty()"></input>
 						<input type="button" name="cancel" value="取消"
 							onclick="window.location.href='./index.jsp'" />

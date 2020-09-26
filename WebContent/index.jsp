@@ -38,10 +38,10 @@
 		<h2 class="title">心情留言板</h2>
 	</div>
 	<div>
-		<div class="board">
+		<div >
 
 			<c:if test="${empty  list}">
-				<h2>??..都還沒有人來留言</h2>
+				<h2 class="pane">??..都還沒有人來留言</h2>
 			</c:if>
 			<c:if test="${ not empty list}">
 				<div class="scroll_height">
@@ -52,7 +52,7 @@
 						</div>
 
 						<div class="pane">
-							
+							<div class="border_row"></div>
 							<div class="border_row"></div>
 						</div>
 					</c:forEach>
